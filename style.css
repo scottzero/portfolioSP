@@ -1,5 +1,5 @@
 body{
-  background-color: black;
+  background-color: white;
 }
 .wrapper{
   display: grid;
@@ -26,10 +26,15 @@ body{
 .leftBox{
 border-style: solid;
 border-color: white;
+background-color:white;
 height: 900px;
 width: 450px;
 color: white;
 grid-area: a1;
+transition: 1s ease-in-out;
+}
+div.leftBox:hover{
+  background-color:#707070;
 }
 
 .githubimg{
@@ -51,9 +56,11 @@ grid-area: a1;
   border-color: white; */
   height: 200px;
   width: 300px;
+  text-align:center;
 }
 
 .tomato-time img{
+  border-radius: 50%;
   max-width: 300px;
   max-height: 300px;
 }
@@ -65,11 +72,13 @@ grid-area: a1;
   border-color: white; */
   height: 200px;
   width: 300px;
+  text-align:center;
 }
 
 .tacoboutit img{
   width: 300px;
   height: 200px;
+  border-radius: 50%;
 }
 
 .railsengine{
@@ -79,11 +88,13 @@ grid-area: a1;
   border-color: white; */
   height: 200px;
   width: 300px;
+  text-align:center;
 }
 
 .railsengine img{
   width: 300px;
   height: 200px;
+  border-radius: 50%;
 }
 
 .sweaterweather{
@@ -98,6 +109,7 @@ grid-area: a1;
 .sweaterweather img{
   width: 300px;
   height: 179.52px;
+  border-radius: 50%;
 }
 
 .koroibos{
@@ -112,6 +124,7 @@ grid-area: a1;
 .koroibos img{
   width: 300px;
   height: 200px;
+  border-radius: 50%;
 }
 
 .bfield{
@@ -127,17 +140,23 @@ grid-area: a1;
 .bfield img{
   width: 300px;
   height: 200px;
+  border-radius: 50%;
 }
 
 
 .centerBox{
   border-style: solid;
   border-color: white;
+  background-color:white;
+  transition: 1s ease-in-out;
   height: 600px;
   width: 450px;
   color: white;
   grid-area: a2;
   text-align: center;
+}
+div.centerBox:hover{
+  background-color: #707070;
 }
 
 .scottimg{
@@ -151,19 +170,25 @@ grid-area: a1;
 .scottimg img{
   max-width: 100%;
   max-height: 100%;
+  border-radius: 50%;
 }
 
 .rightBox{
   border-style: solid;
   border-color: white;
+  background-color: white;
+  transition: 1s ease-in-out;
   height: 900px;
   width: 450px;
   color: white;
   grid-area: a3;
 }
+div.rightBox:hover{
+  background-color: #707070;
+}
 
 .footer{
-  color:white;
+  color:black;
   text-align: center;
   width: auto;
   border-color: white;
