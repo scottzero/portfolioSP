@@ -1,4 +1,8 @@
-made this for the LOLs.
+4-7 hr challenge during quarantine? 
+
+https://scottpaytonportfolio.herokuapp.com/
+
+made this for the LOLs 
 had to trick heroku with index.php and composer.json
 because static web page stuffs.
 
