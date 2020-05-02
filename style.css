@@ -23,6 +23,7 @@ body{
   "a1 a2 a3"
 }
 
+
 .leftBox{
 border-style: solid;
 border-color: white;
@@ -37,7 +38,7 @@ div.leftBox:hover{
   background-color:#707070;
 }
 
-.githubimg{
+.blocksimg{
   /* border-style: solid;
   border-color: white; */
   margin-left: 180px;
@@ -45,7 +46,7 @@ div.leftBox:hover{
   width: 100px;
 }
 
-.githubimg img{
+.blocksimg img{
   max-width: 100%;
   max-height: 100%;
 }
@@ -180,7 +181,7 @@ div.leftBox:hover{
   border-color: white;
   background-color:white;
   transition: 1s ease-in-out;
-  height: 600px;
+  height: 700px;
   width: 450px;
   color: white;
   grid-area: a2;
@@ -203,6 +204,94 @@ div.centerBox:hover{
   max-height: 100%;
   border-radius: 50%;
 }
+
+.socialMedia{
+  margin-top: 30px;
+  display: grid;
+  grid-gap:20px;
+  grid-template-areas:
+  "a1 a2"
+  "a3 a4"
+}
+
+.githubby{
+  grid-area: a1;
+  /* border-style: solid;
+  border-color: red; */
+  height: 200px;
+  width: 300px:
+}
+
+.githubby img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transform: scale(1.0);
+  transition: all 500ms ease;
+}
+.githubby img:hover{
+  transform: scale(1.2);
+}
+
+.linkedin{
+  grid-area: a2;
+  /* border-style: solid;
+  border-color: red; */
+  height: 200px;
+  width: 300px:
+}
+
+.linkedin img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transform: scale(1.0);
+  transition: all 500ms ease;
+}
+.linkedin img:hover{
+  transform: scale(1.2);
+}
+.twitter{
+  grid-area: a3;
+  /* border-style: solid;
+  border-color: red; */
+  height: 200px;
+  width: 300px:
+}
+.twitter img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transform: scale(1.0);
+  transition: all 500ms ease;
+}
+.twitter img:hover{
+  transform: scale(1.2);
+}
+.instagram{
+  grid-area: a4;
+  /* border-style: solid;
+  border-color: red; */
+  height: 200px;
+  width: 300px:
+}
+
+.instagram img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transform: scale(1.0);
+  transition: all 500ms ease;
+}
+.instagram img:hover{
+  transform: scale(1.2);
+}
+
+
+
+
+
+
 
 .rightBox{
   border-style: solid;
