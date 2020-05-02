@@ -1,0 +1,7 @@
+-add social media icons with hover over effects
+-twitter (https://twitter.com/scott33658077)
+-instagram (https://www.instagram.com/scottscookies/)
+-medium (https://medium.com/@spayton.c)
+-github (https://github.com/scottzero)
+-linkdin (https://www.linkedin.com/in/scottpayton1337/)
+-codepen (https://codepen.io/moobot
