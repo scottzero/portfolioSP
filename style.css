@@ -33,8 +33,8 @@ grid-area: a1;
 }
 
 .githubimg{
-  border-style: solid;
-  border-color: white;
+  /* border-style: solid;
+  border-color: white; */
   margin-left: 180px;
   height: 100px;
   width: 100px;
@@ -86,6 +86,48 @@ grid-area: a1;
   height: 200px;
 }
 
+.sweaterweather{
+  margin-left: 80px;
+  margin-top: 50px;
+  /* border-style: solid;
+  border-color: white; */
+  height: 200px;
+  width: 300px;
+}
+
+.sweaterweather img{
+  width: 300px;
+  height: 200px;
+}
+
+.koroibos{
+  margin-left: 80px;
+  margin-top: 50px;
+  /* border-style: solid;
+  border-color: white; */
+  height: 200px;
+  width: 300px;
+}
+
+.koroibos img{
+  width: 300px;
+  height: 200px;
+}
+
+.bfield{
+  margin-left: 80px;
+  margin-top: 50px;
+  /* border-style: solid;
+  border-color: white; */
+  height: 200px;
+  width: 300px;
+}
+
+.bfield img{
+  width: 300px;
+  height: 200px;
+}
+
 
 .centerBox{
   border-style: solid;
@@ -94,12 +136,26 @@ grid-area: a1;
   width: 450px;
   color: white;
   grid-area: a2;
+  text-align: center;
+}
+
+.scottimg{
+  /* border-style: solid;
+  border-color: white; */
+  margin-left: 180px;
+  height: 100px;
+  width: 100px;
+}
+
+.scottimg img{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .rightBox{
   border-style: solid;
   border-color: white;
-  height: 600px;
+  height: 900px;
   width: 450px;
   color: white;
   grid-area: a3;
