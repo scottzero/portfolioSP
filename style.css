@@ -26,7 +26,7 @@ body{
 .leftBox{
 border-style: solid;
 border-color: white;
-height: 600px;
+height: 900px;
 width: 450px;
 color: white;
 grid-area: a1;
@@ -45,6 +45,48 @@ grid-area: a1;
   max-height: 100%;
 }
 
+.tomato-time{
+  margin-left: 80px;
+  /* border-style: solid;
+  border-color: white; */
+  height: 200px;
+  width: 300px;
+}
+
+.tomato-time img{
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.tacoboutit{
+  margin-left: 80px;
+  margin-top: 30px;
+  /* border-style: solid;
+  border-color: white; */
+  height: 200px;
+  width: 300px;
+}
+
+.tacoboutit img{
+  width: 300px;
+  height: 200px;
+}
+
+.railsengine{
+  margin-left: 80px;
+  margin-top: 50px;
+  /* border-style: solid;
+  border-color: white; */
+  height: 200px;
+  width: 300px;
+}
+
+.railsengine img{
+  width: 300px;
+  height: 200px;
+}
+
+
 .centerBox{
   border-style: solid;
   border-color: white;
@@ -52,7 +94,6 @@ grid-area: a1;
   width: 450px;
   color: white;
   grid-area: a2;
-
 }
 
 .rightBox{
