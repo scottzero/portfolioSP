@@ -1,7 +1,0 @@
-{"homepage": "https://scottzero.github.io/sp-portfolio",
-"scripts": {
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build"
-}
-}
